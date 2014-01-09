@@ -1,0 +1,10 @@
+PODS:
+  - MRProgress (0.2.2)
+
+DEPENDENCIES:
+  - MRProgress
+
+SPEC CHECKSUMS:
+  MRProgress: 51af562344c3fe38ce3c0617fd064f6f1ce55cd5
+
+COCOAPODS: 0.29.0
