@@ -1,10 +1,13 @@
 PODS:
+  - EstimoteSDK (1.2.0)
   - MRProgress (0.2.2)
 
 DEPENDENCIES:
+  - EstimoteSDK
   - MRProgress
 
 SPEC CHECKSUMS:
+  EstimoteSDK: 6bfe3bbaae76a23293e35244db94188818063a5a
   MRProgress: 51af562344c3fe38ce3c0617fd064f6f1ce55cd5
 
 COCOAPODS: 0.29.0

@@ -1,0 +1,1 @@
+../../EstimoteSDK/EstimoteSDK/Headers/ESTBeaconRegion.h

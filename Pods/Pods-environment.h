@@ -6,6 +6,12 @@
 // project.
 
 
+// EstimoteSDK
+#define COCOAPODS_POD_AVAILABLE_EstimoteSDK
+#define COCOAPODS_VERSION_MAJOR_EstimoteSDK 1
+#define COCOAPODS_VERSION_MINOR_EstimoteSDK 2
+#define COCOAPODS_VERSION_PATCH_EstimoteSDK 0
+
 // MRProgress
 #define COCOAPODS_POD_AVAILABLE_MRProgress
 #define COCOAPODS_VERSION_MAJOR_MRProgress 0

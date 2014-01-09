@@ -1,5 +1,6 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/MRProgress"
-OTHER_CFLAGS = $(inherited) "-isystem${PODS_ROOT}/Headers" "-isystem${PODS_ROOT}/Headers/MRProgress"
-OTHER_LDFLAGS = -ObjC -framework Accelerate -framework CoreGraphics -framework QuartzCore -framework UIKit
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/EstimoteSDK" "${PODS_ROOT}/Headers/MRProgress" "${PODS_ROOT}/Headers/EstimoteSDK"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/EstimoteSDK" "$(PODS_ROOT)/EstimoteSDK/EstimoteSDK"
+OTHER_CFLAGS = $(inherited) "-isystem${PODS_ROOT}/Headers" "-isystem${PODS_ROOT}/Headers/EstimoteSDK" "-isystem${PODS_ROOT}/Headers/MRProgress"
+OTHER_LDFLAGS = -ObjC -lEstimoteSDK -framework Accelerate -framework CoreGraphics -framework CoreLocation -framework Foundation -framework MobileCoreServices -framework QuartzCore -framework SystemConfiguration -framework UIKit
 PODS_ROOT = ${SRCROOT}/Pods
